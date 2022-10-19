@@ -46,7 +46,7 @@
     "href": "Lec3.html",
     "title": "3  Lecture 3",
     "section": "",
-    "text": "Matrix @ref(eq:matex)\n\\[\\begin{equation}\nX_{m,n} =\n\\begin{pmatrix}\n  x_{1,1} & x_{1,2} & \\cdots & x_{1,n} \\\\\n  x_{2,1} & x_{2,2} & \\cdots & x_{2,n} \\\\\n  \\vdots  & \\vdots  & \\ddots & \\vdots  \\\\\n  x_{m,1} & x_{m,2} & \\cdots & x_{m,n}\n\\end{pmatrix}\n(\\#eq:matex)\n\\end{equation}\n\n\n\\]\n\nBlack-Scholes (Equation 3.1) is a mathematical model that seeks to explain the behavior of financial derivatives, most commonly options:\n\\[\n\\frac{\\partial \\mathrm C}{ \\partial \\mathrm t } + \\frac{1}{2}\\sigma^{2} \\mathrm S^{2}\n\\frac{\\partial^{2} \\mathrm C}{\\partial \\mathrm C^2}\n  + \\mathrm r \\mathrm S \\frac{\\partial \\mathrm C}{\\partial \\mathrm S}\\ =\n  \\mathrm r \\mathrm C\n\\tag{3.1}\\]\nhere iam adding some content hamohamohamouda here iam adding some content hamohamohamouda2"
+    "text": "Matrix @ref(eq:matex)\n\\[\\begin{equation}\nX_{m,n} =\n\\begin{pmatrix}\n  x_{1,1} & x_{1,2} & \\cdots & x_{1,n} \\\\\n  x_{2,1} & x_{2,2} & \\cdots & x_{2,n} \\\\\n  \\vdots  & \\vdots  & \\ddots & \\vdots  \\\\\n  x_{m,1} & x_{m,2} & \\cdots & x_{m,n}\n\\end{pmatrix}\n(\\#eq:matex)\n\\end{equation}\n\n\n\\]\n\nBlack-Scholes (Equation 3.1) is a mathematical model that seeks to explain the behavior of financial derivatives, most commonly options:\n\\[\n\\frac{\\partial \\mathrm C}{ \\partial \\mathrm t } + \\frac{1}{2}\\sigma^{2} \\mathrm S^{2}\n\\frac{\\partial^{2} \\mathrm C}{\\partial \\mathrm C^2}\n  + \\mathrm r \\mathrm S \\frac{\\partial \\mathrm C}{\\partial \\mathrm S}\\ =\n  \\mathrm r \\mathrm C\n\\tag{3.1}\\]\nhere iam adding some content hamohamohamouda here iam adding some content hamohamohamouda2([1])\n\n\n\n\n[1] Donald E. Knuth. 1984. Literate programming. Comput. J. 27, 2 (May 1984), 97–111. DOI:https://doi.org/10.1093/comjnl/27.2.97"
   },
   {
     "objectID": "summary.html",
@@ -60,6 +60,6 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "[1] Donald E. Knuth. 1984. Literate programming.\nComput. J. 27, 2 (May 1984), 97–111. DOI:https://doi.org/10.1093/comjnl/27.2.97"
+    "text": "[1] L.\nP. Balogh. 2020. Nano-enabled medical applications. Jenny\nStanford Publishing. Retrieved from https://books.google.com.eg/books?id=U3oXvwEACAAJ\n\n\n[2] Donald E. Knuth. 1984. Literate programming.\nComput. J. 27, 2 (May 1984), 97–111. DOI:https://doi.org/10.1093/comjnl/27.2.97"
   }
 ]
