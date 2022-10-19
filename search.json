@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fluid-2 Lectures",
+    "section": "",
+    "text": "this book represents our notes from past and present lectures of doctor ihab adam."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "to be created"
+  },
+  {
+    "objectID": "Lec1.html",
+    "href": "Lec1.html",
+    "title": "2  Lecture 1 Questions Fluid-2",
+    "section": "",
+    "text": "–\nM. Twheed Khater and S. Ibrahim Hassan\nSchool of Mechanical Engineering, Alexandria University, Egypt\n–"
+  },
+  {
+    "objectID": "Lec1.html#what-are-types-of-power",
+    "href": "Lec1.html#what-are-types-of-power",
+    "title": "2  Lecture 1 Questions Fluid-2",
+    "section": "2.1 1. What are types of power ?",
+    "text": "2.1 1. What are types of power ?\nthe main types you know as mechanical engineer are ** electric power and mechanical power**\n$$\nelectric: power = I : V\n$$\n$$\nMechanical ; power = F ; V\n$$\nnote that for mechanical power it could be \\(F ; V\\) if the velocity is linear or \\(T ; omega\\) if the velocity is angular .\nBut we will talk mainly on Fluid Power in this term.\n\n# BONUS\n\n\nFluid Power is equal to what ? \n\n\n\nit’s pressure  flowrate,* or \\(P*Q\\).\n\n\n\n\n\\(P*V\\), is Flow Energy, where \\(P\\) is pressure and \\(V\\) is volume, note that dividing energy by time gives you power, \\(dfrac{V}{t}=Q\\).\n\n\n** Take Care …!! **\n\n# BONUS\n\nWhat are the units of :\n\n\nelectric power (\\(I; *V\\)) \\(rightarrow\\) ” \\(M.L^2.T^{-3}\\) “.\n\n\n\n\nmechanical power (\\(F ; *V\\) or \\(T* ; omega\\)) \\(rightarrow\\) ” \\(M.L^2.T^{-3}\\) “.\n\n\n\n\nfluid power (\\(P*Q\\)) \\(rightarrow\\) ” \\(M.L^2.T^{-3}\\) “. ?\n\n\n\n\n\n\n\nall of them have the same units which is watts, or any units with the same dimentions as watts, they only differs up to the conversion factor from one unit to another with the same dimention ” \\(M.L^2.T^{-3}\\) “.\n\n\n\n\nin SI mechanical horse power (english or french) = 745.7 watts (SI),\n\n\n\n\nwatt = one joule per second\n\n\n\n\njoule = \\(kg.m^2.s^-2\\)\n\n\n\n# BONUS\n\n\nwhy fluid power system ?\n\n\n\n\n\n\nthe fluid power system cannot increase power it controls power with increase of force and decrease velocity, according to conservation of energy it transforms mechnical energy with some losses to mechanical energy with tourque or force magnification.\n\n\n\n\ncontrol fluid power (\\(P ;and; Q\\)).\n\n\n\n\nfor electric power its limited in high power.\n\n\n\n\nfor fluid power we can control high power as wel as low power.\n\n\n\n\nfor transmission of power electric is prefered.\n\n\n\n\nwe control the tourque or force via pressurized fluid.\n\n\n\n\npump transform mechanical to hydraulic power and valves for control\n\n\n\n\npressure scaler\n\n\n\n\n\\(Q\\) vector so we control value and direction.\n\n\n\n\nthen reconvert fluid power to mechnical power again via actuator.\n\n\n\nflowchart TD\n\n    A[mech] --> | pump conv to| B[fluid]\n\n    B[fluid] --> |actuator conv to| A[mech]\n\n\n# BONUS\n\n\nthe main disadvantage of oil in fluid power system ?\n\n\n\n\n\n\nthe main problem is flamability, hygenic (النظافة كل الادوية نيوماتيك) and viscosity change with temprature\n\n\n\n\ndentist use penumatic system due to hygenic and very high number of turns he needs."
+  },
+  {
+    "objectID": "Lec1.html#what-are-fluid-power-systems",
+    "href": "Lec1.html#what-are-fluid-power-systems",
+    "title": "2  Lecture 1 Questions Fluid-2",
+    "section": "2.2 2. What are Fluid Power Systems ?",
+    "text": "2.2 2. What are Fluid Power Systems ?\n\nflowchart TD\n\n    A[Mechanical Energy T*omega] --> |takes in| B[Fluid Power System p*Q]\n\n    B[Fluid Power System P*Q] --> |spills out| C[Mechanical Energy T*omega]\n\ncar jack takes in \\(F*V\\) and spills out \\(F*V\\) , crane which takes in rotational power and spills out rotational power .\nthe reason why we use fluid power system is that we want to maximize or better say control \\(F\\) vs \\(V\\) or \\(Tourque\\) vs \\(omega\\) for the same power value.\nsay i want 1 kw power with specific tourque or rotational velocity but not both under the same power value.\nits system of power transmission via displacment of fluid, this excluds hydraulic coupling systems, but we work with bascal’s principle.\nhydrulic jack multipies force but not power.\nwe need high force high torque.\n\n2.2.1 power to weight ratio\n| hydraulic mototr 7.5 kw | electric motor 7.5 kw |\n|——– |————————- |———————– |\nweight | 67 kg | 5-7 kg |\nlength | 13 cm | 50 cm |\nthe tourque is inversly proportional with omega under constant power \\(T;alpha ; dfrac{1}{omega}\\).\n\nAccording to pascal, \\(Power = dfrac{F}{A}\\) so if we want to lift one ton with 10 \\(cm^2\\) cylinder it will need twice the pressure needed by 20 \\(cm^2\\) cylinder.\n\nAccording to continuity equation \\(Q=A*V\\) so to lift this weight with the same velocity \\(V\\) the 10 \\(cm^2\\) cylinder will take half the \\(Q\\) the 20 \\(cm^2\\) cylinder will take.\nhydraulic power \\(Power = P*Q\\)\n\n\n\n\n2.2.2 The Difference Between Pressure and Flow\n\npump create flowrate, the gauge dosen’t read how much pressure produced by the pump but rather it reads how much resistance is in the system.\n** for fixed displacement pump** flow is determined by two factors :\n\nits displacment .\nspeed of the drive motor."
+  },
+  {
+    "objectID": "Lec1.html#examples-of-fluid-power-systems",
+    "href": "Lec1.html#examples-of-fluid-power-systems",
+    "title": "2  Lecture 1 Questions Fluid-2",
+    "section": "2.3 Examples of fluid power systems",
+    "text": "2.3 Examples of fluid power systems\n\nrolling machines\npress\nplastic injection\ndie cast\npetrolium\nair plan"
+  },
+  {
+    "objectID": "Lec3.html",
+    "href": "Lec3.html",
+    "title": "3  Lecture 3",
+    "section": "",
+    "text": "Matrix @ref(eq:matex)\n\\[\\begin{equation}\nX_{m,n} =\n\\begin{pmatrix}\n  x_{1,1} & x_{1,2} & \\cdots & x_{1,n} \\\\\n  x_{2,1} & x_{2,2} & \\cdots & x_{2,n} \\\\\n  \\vdots  & \\vdots  & \\ddots & \\vdots  \\\\\n  x_{m,1} & x_{m,2} & \\cdots & x_{m,n}\n\\end{pmatrix}\n(\\#eq:matex)\n\\end{equation}\n\n\n\\]\n\nBlack-Scholes (Equation 3.1) is a mathematical model that seeks to explain the behavior of financial derivatives, most commonly options:\n\\[\n\\frac{\\partial \\mathrm C}{ \\partial \\mathrm t } + \\frac{1}{2}\\sigma^{2} \\mathrm S^{2}\n\\frac{\\partial^{2} \\mathrm C}{\\partial \\mathrm C^2}\n  + \\mathrm r \\mathrm S \\frac{\\partial \\mathrm C}{\\partial \\mathrm S}\\ =\n  \\mathrm r \\mathrm C\n\\tag{3.1}\\]\nhere iam adding some content hamohamohamouda here iam adding some content hamohamohamouda2"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "4  Summary",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "[1] Donald E. Knuth. 1984. Literate programming.\nComput. J. 27, 2 (May 1984), 97–111. DOI:https://doi.org/10.1093/comjnl/27.2.97"
+  }
+]
